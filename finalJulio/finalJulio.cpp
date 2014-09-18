@@ -12,9 +12,19 @@
 
 using namespace std;
 
+struct ruta
+{
+	unsigned localidad1;
+	unsigned localidad2;
+	unsigned distancia;
+	unsigned ruta;
+};
+
 int main()
 {
-
+	array <ruta, 4950> rutas;							
+	array < array < unsigned, 100 > , 100 > rutadistancia;
 	return 0;
+
 }
 
