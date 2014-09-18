@@ -18,11 +18,13 @@ struct ruta
 	unsigned localidad2;
 	unsigned distancia;
 	unsigned ruta;
-};
+} ;
+
+void inicializarM(array < array < unsigned, 100 >, 100 >);
 
 int main()
 {
-	array <ruta, 4950> rutas;							
+	array <ruta, 4950> rutas;
 	array < array < unsigned, 100 > , 100 > rutadistancia;
 	return 0;
 
